@@ -26,3 +26,11 @@ video {
     background-color: rgb(255, 255, 255,0.3); /* 半透明黑色 */
     z-index: -1; /* 在视频上方 */
 }
+/* webkit, opera, IE9 */
+::selection{background:lightblue;}
+/* mozilla firefox */
+​​​​​​​::-moz-selection{background:lightblue;}
+/* webkit, opera, IE9 */div.highlightBlue::selection{background:lightblue;}
+/* mozilla firefox */div.highlightBlue::-moz-selection{background:lightblue;}
+/* webkit, opera, IE9 */div.highlightPink::selection{background:pink;}
+/* mozilla firefox */div.highlightPink::-moz-selection{background:pink;}
